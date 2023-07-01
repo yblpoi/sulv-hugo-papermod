@@ -10,7 +10,8 @@
         <a href="{{ "" | absLangURL }}" style="color:#939393;">{{ .Site.Title }}</a>
         All Rights Reserved
     </span>
-    <a href="https://beian.miit.gov.cn/" target="_blank" style="color:#939393;">{{ .Site.Params.FilingNo }}</a>&nbsp;
+    <a href="https://icp.gov.moe/?keyword={{ .Site.Params.MoeID }}" target="_blank" style="color:#939393;">{{ .Site.Params.MoeFilingNo }}</a>&nbsp;
+    <!-- <a href="https://beian.miit.gov.cn/" target="_blank" style="color:#939393;">{{ .Site.Params.FilingNo }}</a>&nbsp; 
     <span>
         <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=null"
            style="display:inline-block;text-decoration:none;height:20px;color:#939393;">
@@ -18,6 +19,7 @@
             {{ .Site.Params.PublicNetworkSecurity }}
         </a>
     </span>
+    //-->
     <span id="busuanzi_container">
         <span class="fa fa-user"></span> <span id="busuanzi_value_site_uv"></span>
         <span class="fa fa-eye"></span> <span id="busuanzi_value_site_pv"></span>

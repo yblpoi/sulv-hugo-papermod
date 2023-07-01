@@ -1,6 +1,6 @@
-baseURL: https://xyming108.github.io/ # 绑定的域名
+baseURL: https://yblpoi.top/ # 绑定的域名
 languageCode: zh-cn # en-us
-title: Sulv's Blog
+title: yuの摸鱼小站 
 theme: hugo-PaperMod  # 主题名字，和themes文件夹下的一致
 
 enableInlineShortcodes: true
@@ -23,8 +23,9 @@ minify:
   # minifyOutput: true
 
 permalinks: # 访问博客时网址的显示形式
-  post: "/:title/"
+  #post: "/:title/"
   # post: "/:year/:month/:day/:title/"
+  post: "/:year/:month/:title/"
 
 defaultContentLanguage: en # 最顶部首先展示的语言页面
 defaultContentLanguageInSubdir: true
@@ -33,24 +34,25 @@ languages:
   en:
     languageName: "English"
     weight: 1
-    profileMode:
-      enabled: true
-      title: (〃'▽'〃)
-      subtitle:
-      # subtitle: "🧨学而时习之，不亦说乎？有朋自远方来，不亦乐乎？<br/>👇联系方式"
-      imageUrl: "img/Q.gif"
-      imageTitle:
-      imageWidth: 150
-      imageHeight: 150
-      buttons:
-        - name: 🧱 建站
-          url: posts/blog
-        - name: 👨🏻‍💻 技术
-          url: posts/tech
-        - name: 📕 阅读
-          url: posts/read
-        - name: 🏖 生活
-          url: posts/life
+    params:
+      profileMode:
+        enabled: true
+        title: 一个摸鱼人的摸鱼小站
+        #subtitle:
+        subtitle: "😽比起绞尽脑汁，我更喜欢摸鱼时的灵光一现~~<br/>👇联系方式"
+        imageUrl: "img/me.webp"
+        imageTitle:
+        imageWidth: 150
+        imageHeight: 150
+        buttons:
+          - name: 🕹️ SteamDeck
+            url: posts/steamdeck
+          - name: 🗑️ 技术
+            url: posts/tech
+          - name: 📕 阅读
+            url: posts/read
+          - name: 🤪 生活
+            url: posts/life
     menu:
       main:
         - identifier: search
@@ -92,7 +94,7 @@ outputs:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   description: ""
-  author: Sulv
+  author: Yu
   # author: ["Me", "You"] # multiple authors
 
   defaultTheme: auto  # defaultTheme: light or  dark
@@ -118,27 +120,27 @@ params:
   comments: true
   socialIcons:
     - name: github
-      url: "https://github.com/xyming108"
-    - name: twitter
-      url: "img/twitter.png"
-    - name: facebook
-      url: "https://www.facebook.com/profile.php?id=100027782410997"
-    - name: instagram
-      url: "img/instagram.png"
-    - name: QQ
-      url: "img/qq.png"
-    - name: WeChat
-      url: "img/wechat.png"
+      url: "https://github.com/yblpoi"
+    - name: steam
+      url: "https://steamcommunity.com/id/ybl7f2e2/"
+    #- name: facebook
+    #  url: "https://www.facebook.com/profile.php?id=100027782410997"
+    #- name: instagram
+    #  url: "img/instagram.png"
+    #- name: QQ
+    #  url: "img/qq.png"
+    #- name: WeChat
+    #  url: "img/wechat.png"
     - name: bilibili
-      url: "https://space.bilibili.com/234461224"
-    - name: email
-      url: "mailto:1931559710@qq.com"
+      url: "https://space.bilibili.com/24561124"
+    #- name: email
+    #  url: "mailto:1931559710@qq.com"
     - name: RSS
       url: "index.xml"
 
   label: # 左上角图标
-    text: "Sulv's Blog"
-    icon: "img/Q.gif"
+    text: "yuの摸鱼小站"
+    icon: "img/me.webp"
     iconHeight: 35
 
   analytics:
@@ -146,11 +148,11 @@ params:
       SiteVerificationTag: ""
 
   assets:
-    favicon: "img/Q.gif"
-    favicon16x16: "img/Q.gif"
-    favicon32x32: "img/Q.gif"
-    apple_touch_icon: "img/Q.gif"
-    safari_pinned_tab: "img/Q.gif"
+    favicon: "img/me.webp"
+    favicon16x16: "img/me.webp"
+    favicon32x32: "img/me.webp"
+    apple_touch_icon: "img/me.webp"
+    safari_pinned_tab: "img/me.webp"
     disableFingerprinting: true # 禁用指纹
 
   cover:
@@ -167,10 +169,12 @@ params:
     minMatchCharLength: 0
     keys: [ "title", "permalink", "summary" ]
 
-  StartYear: 2020 # 底部开始年份
-  FilingNo: 填写自己的备案号 # 底部备案号
-  PublicSecurityIconLink: 填自己的公安图标链接 # 填自己的公安图标链接,可用绝对路径，相对路径如 img/beian.png
-  PublicNetworkSecurity: 填自己的公网安备 # 底部公网安备号
+  StartYear: 2022 # 底部开始年份
+  #FilingNo: 萌ICP备20239190号 # 底部备案号
+  #PublicSecurityIconLink: img/beian.png # 填自己的公安图标链接,可用绝对路径，相对路径如 img/beian.png
+  #PublicNetworkSecurity: 萌ICP备20239190号 # 底部公网安备号
+  MoeID: 20239190
+  MoeFilingNo: 萌ICP备20239190号
 
   Reward: true #打赏是否开启
   # 打赏微信图片地址，
@@ -181,8 +185,8 @@ params:
 
   # twikoo评论
   twikoo:
-    version: 1.5.8 # 填写twikoo版本号
-    id:  # 填写自己的twikoo id
+    version: 1.6.16 # 填写twikoo版本号
+    id:  https://twikoo.yblpoi.top/ # 填写自己的twikoo id
     region:  # 环境地域，默认为 ap-shanghai，如果您的环境地域不是上海，需传此参数，请看twikoo官方文档
 
 taxonomies:
@@ -198,7 +202,7 @@ markup:
     # anchorLineNos: true
     codeFences: true
     guessSyntax: true
-    # lineNos: true
+    lineNos: true
     noClasses: true
     tabWidth: 4
     style: monokai
