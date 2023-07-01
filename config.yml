@@ -1,6 +1,6 @@
 baseURL: https://yblpoi.top/ # 绑定的域名
 languageCode: zh-cn # en-us
-title: yuの摸鱼小站 
+title: Yuの摸鱼小站 
 theme: hugo-PaperMod  # 主题名字，和themes文件夹下的一致
 
 enableInlineShortcodes: true
@@ -39,7 +39,7 @@ languages:
         enabled: true
         title: 一个摸鱼人的摸鱼小站
         #subtitle:
-        subtitle: "😽比起绞尽脑汁，我更喜欢摸鱼时的灵光一现~~<br/>👇联系方式"
+        subtitle: "😽 比起绞尽脑汁，我更喜欢摸鱼时的灵光一现~~<br/>👇联系方式"
         imageUrl: "img/me.webp"
         imageTitle:
         imageWidth: 150
@@ -75,13 +75,13 @@ languages:
           name: ⏱️ 时间轴
           url: archives/
           weight: 20
-        - identifier: about
-          name: 🙋🏻‍♂️ 关于
-          url: about
-          weight: 50
         - identifier: links
           name: 🤝 友链
           url: links
+          weight: 50
+        - identifier: about
+          name: 🙋🏻‍♂️ 关于我
+          url: about
           weight: 60
 
 outputs:
@@ -139,7 +139,7 @@ params:
       url: "index.xml"
 
   label: # 左上角图标
-    text: "yuの摸鱼小站"
+    text: "Yuの摸鱼小站"
     icon: "img/me.webp"
     iconHeight: 35
 

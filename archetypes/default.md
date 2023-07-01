@@ -1,8 +1,8 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
-lastmod: {{ .Date }}
-author: ["Sulv"]
+title: "{{ replace .Name "-" " " | title }}" # 标题
+date: {{ .Date }}	# 创建时间
+lastmod: {{ .Date }}	# 更新时间
+author: ["Yu"]
 keywords: 
 - 
 categories: # 没有分类界面可以不填写
@@ -28,7 +28,6 @@ cover:
     alt: ""
     relative: false
 ---
-
 
 
 
