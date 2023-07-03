@@ -133,8 +133,8 @@ params:
     #  url: "img/wechat.png"
     - name: bilibili
       url: "https://space.bilibili.com/24561124"
-    #- name: email
-    #  url: "mailto:1931559710@qq.com"
+    # - name: email
+    #   url: "mailto:yblpoi@outlook.com"
     - name: RSS
       url: "index.xml"
 
