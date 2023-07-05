@@ -14,8 +14,9 @@ showbreadcrumbs: false
 
 <div class="friend">
 {{< friend name="yuの摸鱼小站" url="https://yblpoi.top" logo="https://yblpoi.top/img/me.webp" word="一个摸鱼人的摸鱼小站" >}}
-
 {{< friend name="倦意博客" url="https://jy.cyou" logo="https://jy.cyou/favicon.svg" word="一个喜欢分享技术的“小白”~" >}}
+
+{{< friend name="月亮小屋 - 林🌙" url="https://blog.monl.cc/" logo="https://image.muerg.cn/2/2023/07/04/64a41e7945430.gif" word="Future is now🍭🍭🍭" >}}
 
 
 </div>
@@ -47,5 +48,4 @@ showbreadcrumbs: false
 <div style="font-size: 20px;">👉友链申请要求</div>
 
 > 秉承互换友链原则、文章定期更新、不能有太多广告、个人描述字数控制在15字内
-
 
