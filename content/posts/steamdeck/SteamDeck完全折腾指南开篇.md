@@ -66,7 +66,7 @@ windows和硬件方面的部分较为简单，有可能能穿插着写完。
 
 ### SteamOS入门到Linux精通
 
-施工中。。。
+{{< innerlink src="posts/steamdeck/OS基础文件系统.md" >}} 
 
 ### 双系统以及文件共享
 
