@@ -51,8 +51,8 @@ languages:
             url: posts/tech
           - name: 📕 阅读
             url: posts/read
-          - name: 🤪 生活
-            url: posts/life
+          - name: ✈️ 无人机
+            url: posts/aopa
     menu:
       main:
         - identifier: search
