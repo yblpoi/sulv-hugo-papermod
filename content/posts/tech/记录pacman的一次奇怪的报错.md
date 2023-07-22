@@ -4,16 +4,14 @@ date: 2023-07-03T17:56:28+08:00	# 创建时间
 lastmod: 2023-07-03T17:56:28+08:00	# 更新时间
 author: ["Yu"]
 keywords: 
-- Caddy
-- 服务器
+- pacman
+- archlinux
 categories: # 没有分类界面可以不填写
-- Caddy
-- 服务器环境
+- pacman
+- archlinux
 tags: # 标签
-- Caddy
-- 配置
-- 云服务器
-- Caddyfile
+- pacman
+- archlinux
 description: "Arch的社区支持真的不错"
 weight:
 slug: ""
