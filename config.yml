@@ -28,7 +28,7 @@ permalinks: # 访问博客时网址的显示形式
   post: "/:year/:month/:title/"
 
 defaultContentLanguage: en # 最顶部首先展示的语言页面
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: false
 
 languages:
   en:
