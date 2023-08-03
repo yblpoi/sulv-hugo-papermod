@@ -52,7 +52,7 @@ languages:
           - name: 📕 阅读
             url: posts/read
           - name: ✈️ 无人机
-            url: posts/aopa
+            url: posts/drone
     menu:
       main:
         - identifier: search
