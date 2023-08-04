@@ -28,7 +28,7 @@ jobs:
       - name: Deploy
         uses: burnett01/rsync-deployments@5.2
         with:
-          switches: -avzr --delete
+          switches: -avuz --delete --chown=caddy:caddy
           path: ./public
           remote_path: ${{ secrets.DEPLOY_PATH }} # 需要先手动在远程主机创建该目录，否则会执行失败
           remote_host: ${{ secrets.DEPLOY_HOST }} # 远程主机 IP
