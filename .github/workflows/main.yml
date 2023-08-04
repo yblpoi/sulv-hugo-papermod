@@ -30,7 +30,7 @@ jobs:
         with:
           switches: -avuz --delete --chown=caddy:caddy
           path: ./public
-          remote_path: ${{ secrets.DEPLOY_PATH }} # 需要先手动在远程主机创建该目录，否则会执行失败
+          remote_path: /home/wwwroot/vhost/blog # 需要先手动在远程主机创建该目录，否则会执行失败
           remote_host: ${{ secrets.DEPLOY_HOST }} # 远程主机 IP
           remote_port: ${{ secrets.DEPLOY_PORT }} # ssh 端口，默认为 22
           remote_user: ${{ secrets.DEPLOY_USER }} # ssh user
