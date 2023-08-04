@@ -23,7 +23,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo
 
       - name: Deploy
         uses: burnett01/rsync-deployments@5.2
